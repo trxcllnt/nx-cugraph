@@ -1,3 +1,18 @@
+# nx-cugraph 26.06.00 (3 Jun 2026)
+
+### 🛠️ Improvements
+* update pip devcontainers' base image tags by @trxcllnt in https://github.com/rapidsai/nx-cugraph/pull/252
+* Use `token.rapids.nvidia.com` when issuing S3 bucket creds in devcontainers by @trxcllnt in https://github.com/rapidsai/nx-cugraph/pull/258
+* fix(ci): resolve all zizmor findings and add zizmor pre-commit checks by @gforsyth in https://github.com/rapidsai/nx-cugraph/pull/259
+* Build and test with CUDA 13.2.0 by @bdice in https://github.com/rapidsai/nx-cugraph/pull/260
+* Perf: use GPU-only searchsorted instead of numpy.repeat by @eriknw in https://github.com/rapidsai/nx-cugraph/pull/253
+* Expose Barnes-Hut and mobility parameters in forceatlas2_layout by @victor-lafarge in https://github.com/rapidsai/nx-cugraph/pull/255
+
+## New Contributors
+* @victor-lafarge made their first contribution in https://github.com/rapidsai/nx-cugraph/pull/255
+
+**Full Changelog**: https://github.com/rapidsai/nx-cugraph/compare/v26.06.00a...release/26.06
+
 # nx-cugraph 26.04.00 (8 Apr 2026)
 
 ### 🐛 Bug Fixes
